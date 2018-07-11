@@ -1,4 +1,6 @@
 
+const path = require('path');
+
 //import the express server
 const express = require('express');
 
@@ -49,6 +51,16 @@ app.use('/api/users',users);
 app.use('/api/profile', profile);
 app.use('/api/posts', posts);
 app.use('/api/sensors', sensors);
+
+// server static assets if in production
+if(process.env.NODE_ENV === 'production') {
+    // Set static folder
+    app.use(express.static('client/build'));
+    // Redirect to build folder
+    app.get('*',(req, res) => {
+        res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+    });
+}
 
 const port = process.env.PORT || 5000;
 
