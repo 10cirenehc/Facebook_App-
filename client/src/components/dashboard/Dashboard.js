@@ -47,7 +47,7 @@ class Dashboard extends Component {
                                 </button>
                             </div>
 
-                            <Link to="/sensor_disp" className="btn btn-lg btn-light">View Sensor Logs</Link>
+                            <Link to="/logs" className="btn btn-lg btn-light">View Sensor Logs</Link>
 
                         </div>
                     );
@@ -63,7 +63,7 @@ class Dashboard extends Component {
                             <br>
 
                         </br>
-                            <Link to="/sensor_disp" className="btn btn-lg btn-info">
+                            <Link to="/logs" className="btn btn-lg btn-info">
                                 View Sensor Logs
                             </Link>
 

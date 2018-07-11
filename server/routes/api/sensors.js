@@ -62,7 +62,7 @@ router.post ('/register' , passport.authenticate('jwt', {session: false}) , (req
 
 });
 
-router.get('/all/:id' , passport.authenticate('jwt', {session: false}), (req,res) => {
+router.get('/all' , passport.authenticate('jwt', {session: false}), (req,res) => {
     Log.find({user: req.params.id})
         .then(log =>{
             if(!log){

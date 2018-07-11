@@ -25,7 +25,7 @@ import NotFound from './components/common/NotFound';
 import Posts from './components/posts/Posts';
 import Post from './components/post/Post';
 import SensorReg from './components/sensors/SensorReg';
-import SensorDisp from './components/sensors/SensorDisp';
+import Logs from './components/logs/Logs';
 
 
 import store from './store';
@@ -71,7 +71,7 @@ class App extends Component {
                                 <PrivateRoute exact path="/dashboard" component={ Dashboard }/>
                             </Switch>
                             <Switch>
-                                <PrivateRoute exact path="/sensor_disp" component={SensorDisp}/>
+                                <PrivateRoute exact path="/logs" component={Logs}/>
                             </Switch>
                             <Switch>
                                 <PrivateRoute exact path="/create-profile" component={ CreateProfile }/>

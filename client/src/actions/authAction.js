@@ -3,8 +3,13 @@ import axios from 'axios';
 import jwt_decode from 'jwt-decode';
 import setAuthToken from '../utils/setAuthToken';
 
-import { GET_ERRORS, SET_CURRENT_USER } from './types'
+import {GET_ERRORS, SET_CURRENT_USER, LOGS_LOADING, GET_LOGS} from "./types";
 
+export const setLogsLoading = () => {
+    return {
+        type: LOGS_LOADING
+    };
+};
 //Register User
 
 export const registerUser = (userData, history) => dispatch => {
@@ -57,3 +62,19 @@ export const registerSensor = (sensorData , history) => dispatch => {
         });
 };
 
+export const getLogs = () => dispatch => {
+
+    axios.get('/api/sensors/all/:id')
+        .then(res => {
+            dispatch({
+                type: GET_LOGS,
+                payload: res.data
+            });
+        })
+        .catch(err => {
+            dispatch({
+                type: GET_LOGS,
+                payload: null
+            });
+        });
+};

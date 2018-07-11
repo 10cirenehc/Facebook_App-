@@ -8,7 +8,7 @@ class PostFeed extends Component {
 
         return posts.map(post => <PostItem  key ={post._id} post={post} />);
     }
-};
+}
 
 PostFeed.propTypes = {
     posts: PropTypes.array.isRequired

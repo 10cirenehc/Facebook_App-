@@ -5,7 +5,7 @@ import PropTypes  from 'prop-types';
 
 import { connect } from 'react-redux';
 
-import {registerSensor} from "../../actions/authAction";
+import {registerSensor} from "../../actions/sensorAction";
 import {withRouter} from "react-router-dom";
 
 class SensorReg extends Component {
