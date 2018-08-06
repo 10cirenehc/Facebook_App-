@@ -2,18 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d4d2160-1110-4636-961e-e8b0ab02c24b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/actions/sensorAction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/logs/Logs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/reducers/sensorReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/actions/authAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/authAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/postAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/postAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/profileAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/profileAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/sensorAction.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/common/InputGroup.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/common/InputGroup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/common/NotFound.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/common/NotFound.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/common/PrivateRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/common/PrivateRoute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/common/Spinner.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/common/Spinner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/common/TextAreaFieldGroup.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/common/TextAreaFieldGroup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/common/TextFieldGroup.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/common/TextFieldGroup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/create-profile/CreateProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/create-profile/CreateProfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/dashboard/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/edit-profile/EditProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/edit-profile/EditProfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/layout/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/layout/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/layout/Landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/layout/Landing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/logs/Logs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/post/CommentFeed.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/post/CommentFeed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/post/CommentForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/post/CommentForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/post/CommentItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/post/CommentItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/post/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/post/Post.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/posts/PostFeed.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/posts/PostFeed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/sensors/SensorDisp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/sensors/SensorReg.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/sensors/SensorReg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/api/sensors.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/api/sensors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/posts/PostForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/posts/PostForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/posts/PostItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/posts/PostItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/posts/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/posts/Posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/profile/Profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profile/ProfileAbout.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/profile/ProfileAbout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profile/ProfileGitHub.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/profile/ProfileGitHub.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profile/ProfileHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/profile/ProfileHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profiles/ProfileItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/profiles/ProfileItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profiles/Profiles.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/profiles/Profiles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/sensors/SensorReg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/users/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/users/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/users/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/users/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/img/surf.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/img/surf.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/authReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/authReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/errorReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/errorReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/postReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/postReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/profileReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/profileReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/sensorReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/registerServiceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/registerServiceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/setAuthToken.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/setAuthToken.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/validation/is-empty.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/validation/is-empty.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,60 +73,77 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="PostFeed.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/components/posts/PostFeed.js">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="profileAction.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/actions/profileAction.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+            <state relative-caret-position="330">
+              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sensors.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/routes/api/sensors.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Logs.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/src/components/logs/Logs.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sensor.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/models/Sensor.js">
+      <file leaf-file-name="profile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/routes/api/profile.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="Log.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/models/Log.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="User.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/models/User.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="Post.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/components/post/Post.js">
+      <file leaf-file-name="keys.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/config/keys.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="681">
-              <caret line="56" column="20" lean-forward="true" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/App.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="App.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/App.test.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="authAction.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/actions/authAction.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="postAction.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/actions/postAction.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="148" column="2" selection-start-line="144" selection-end-line="148" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="ProfileHeader.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/components/profile/ProfileHeader.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -87,23 +151,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Posts.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/components/posts/Posts.js">
+      <file leaf-file-name="EditProfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/components/edit-profile/EditProfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="21" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostItem.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/components/posts/PostItem.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="87" column="37" lean-forward="true" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
+            <state relative-caret-position="2475">
+              <caret line="175" column="38" selection-start-line="175" selection-start-column="38" selection-end-line="175" selection-end-column="38" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -126,9 +178,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client/src/validation/is-empty.js" />
         <option value="$PROJECT_DIR$/client/src/components/common/TextAreaFieldGroup.js" />
-        <option value="$PROJECT_DIR$/client/src/components/common/InputGroup.js" />
         <option value="$PROJECT_DIR$/client/src/components/common/Spinner.js" />
         <option value="$PROJECT_DIR$/client/src/components/common/PrivateRoute.js" />
         <option value="$PROJECT_DIR$/client/src/components/users/Register.js" />
@@ -137,13 +187,10 @@
         <option value="$PROJECT_DIR$/server/models/Log.js" />
         <option value="$PROJECT_DIR$/client/src/components/users/Login.js" />
         <option value="$PROJECT_DIR$/client/src/reducers/errorReducer.js" />
-        <option value="$PROJECT_DIR$/server/validation/sensorRegister.js" />
         <option value="$PROJECT_DIR$/server/routes/api/profile.js" />
         <option value="$PROJECT_DIR$/client/src/actions/profileAction.js" />
         <option value="$PROJECT_DIR$/client/src/actions/postAction.js" />
-        <option value="$PROJECT_DIR$/client/src/reducers/profileReducer.js" />
         <option value="$PROJECT_DIR$/client/src/reducers/postReducer.js" />
-        <option value="$PROJECT_DIR$/client/src/reducers/index.js" />
         <option value="$PROJECT_DIR$/client/src/components/layout/Navbar.js" />
         <option value="$PROJECT_DIR$/client/src/components/post/CommentFeed.js" />
         <option value="$PROJECT_DIR$/client/src/components/post/CommentForm.js" />
@@ -164,19 +211,24 @@
         <option value="$PROJECT_DIR$/server/server.js" />
         <option value="$PROJECT_DIR$/client/src/components/posts/PostFeed.js" />
         <option value="$PROJECT_DIR$/client/src/actions/types.js" />
-        <option value="$PROJECT_DIR$/client/src/actions/authAction.js" />
         <option value="$PROJECT_DIR$/client/src/components/sensors/SensorReg.js" />
-        <option value="$PROJECT_DIR$/client/src/reducers/sensorReducer.js" />
-        <option value="$PROJECT_DIR$/client/src/components/profiles/Profiles.js" />
         <option value="$PROJECT_DIR$/client/src/components/sensors/LogItem.js" />
         <option value="$PROJECT_DIR$/client/src/components/sensors/SensorDisp.js" />
         <option value="$PROJECT_DIR$/server/routes/api/sensors.js" />
-        <option value="$PROJECT_DIR$/client/src/actions/sensorAction.js" />
         <option value="$PROJECT_DIR$/client/src/components/logs/LogItem.js" />
+        <option value="$PROJECT_DIR$/client/src/components/logs/LogFeed.js" />
+        <option value="$PROJECT_DIR$/server/validation/sensorRegister.js" />
+        <option value="$PROJECT_DIR$/server/validation/posts.js" />
         <option value="$PROJECT_DIR$/client/src/components/dashboard/Dashboard.js" />
         <option value="$PROJECT_DIR$/client/src/App.js" />
-        <option value="$PROJECT_DIR$/client/src/components/logs/LogFeed.js" />
+        <option value="$PROJECT_DIR$/client/src/reducers/profileReducer.js" />
+        <option value="$PROJECT_DIR$/client/src/reducers/index.js" />
+        <option value="$PROJECT_DIR$/client/src/actions/authAction.js" />
+        <option value="$PROJECT_DIR$/client/src/components/common/InputGroup.js" />
+        <option value="$PROJECT_DIR$/client/src/actions/sensorAction.js" />
+        <option value="$PROJECT_DIR$/client/src/reducers/sensorReducer.js" />
         <option value="$PROJECT_DIR$/client/src/components/logs/Logs.js" />
+        <option value="$PROJECT_DIR$/client/src/components/profiles/Profiles.js" />
       </list>
     </option>
   </component>
@@ -189,7 +241,6 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/client/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
@@ -198,9 +249,9 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="800" />
-    <option name="height" value="600" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -212,173 +263,51 @@
         <subPane>
           <expand>
             <path>
-              <item name="SummerInstitute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SummerInstitute" type="462c0819:PsiDirectoryNode" />
+              <item name="SummerInstitute_myVersion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SummerInstitute_myVersion" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SummerInstitute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SummerInstitute" type="462c0819:PsiDirectoryNode" />
+              <item name="SummerInstitute_myVersion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SummerInstitute_myVersion" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SummerInstitute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SummerInstitute" type="462c0819:PsiDirectoryNode" />
+              <item name="SummerInstitute_myVersion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SummerInstitute_myVersion" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SummerInstitute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SummerInstitute" type="462c0819:PsiDirectoryNode" />
+              <item name="SummerInstitute_myVersion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SummerInstitute_myVersion" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="actions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SummerInstitute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SummerInstitute" type="462c0819:PsiDirectoryNode" />
+              <item name="SummerInstitute_myVersion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SummerInstitute_myVersion" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SummerInstitute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SummerInstitute" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SummerInstitute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SummerInstitute" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="create-profile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SummerInstitute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SummerInstitute" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SummerInstitute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SummerInstitute" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="edit-profile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SummerInstitute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SummerInstitute" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SummerInstitute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SummerInstitute" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SummerInstitute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SummerInstitute" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="post" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SummerInstitute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SummerInstitute" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SummerInstitute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SummerInstitute" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="profile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SummerInstitute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SummerInstitute" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="profiles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SummerInstitute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SummerInstitute" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="sensors" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SummerInstitute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SummerInstitute" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SummerInstitute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SummerInstitute" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SummerInstitute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SummerInstitute" type="462c0819:PsiDirectoryNode" />
+              <item name="SummerInstitute_myVersion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SummerInstitute_myVersion" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="validation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SummerInstitute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SummerInstitute" type="462c0819:PsiDirectoryNode" />
+              <item name="SummerInstitute_myVersion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SummerInstitute_myVersion" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SummerInstitute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SummerInstitute" type="462c0819:PsiDirectoryNode" />
+              <item name="SummerInstitute_myVersion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SummerInstitute_myVersion" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SummerInstitute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SummerInstitute" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SummerInstitute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SummerInstitute" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SummerInstitute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SummerInstitute" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="validation" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -394,7 +323,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -439,26 +368,30 @@
       <option name="presentableId" value="Default" />
       <updated>1530897145773</updated>
       <workItem from="1530897147464" duration="385000" />
-      <workItem from="1530897648647" duration="82521000" />
+      <workItem from="1530897648647" duration="87548000" />
+      <workItem from="1532091774017" duration="1253000" />
+      <workItem from="1533540778402" duration="1194000" />
+      <workItem from="1533542139594" duration="2831000" />
+      <workItem from="1533553439047" duration="958000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82906000" />
+    <option name="totallyTimeSpent" value="94169000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49921995" visible="true" weight="0.24954791" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32668066" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32668066" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32983193" />
-      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="npm" order="2" sideWeight="0.50078005" side_tool="true" weight="0.24954791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32983193" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32983193" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -508,126 +441,94 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/src/components/create-profile/CreateProfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="71" column="43" lean-forward="true" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/validation/profile.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/actions/authAction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="80" lean-forward="true" selection-start-line="52" selection-end-line="80" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/actions/profileAction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="108" column="2" selection-start-line="108" selection-start-column="2" selection-end-line="108" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/validation/login.js">
+    <entry file="file://$PROJECT_DIR$/server/routes/api/users.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/actions/postAction.js">
+    <entry file="file://$PROJECT_DIR$/client/src/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/posts/PostForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="145" column="12" lean-forward="true" selection-start-line="145" selection-start-column="12" selection-end-line="145" selection-end-column="12" />
+        <state relative-caret-position="1380">
+          <caret line="92" column="82" selection-start-line="92" selection-start-column="82" selection-end-line="92" selection-end-column="82" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/layout/Landing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="63" selection-start-line="15" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/reducers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/reducers/errorReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/reducers/authReducer.js">
+    <entry file="file://$PROJECT_DIR$/client/src/components/posts/PostFeed.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/reducers/postReducer.js">
+    <entry file="file://$PROJECT_DIR$/client/src/components/posts/PostItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="32" column="14" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="32" selection-end-column="14" />
+        <state relative-caret-position="418">
+          <caret line="87" column="37" lean-forward="true" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
           <folding>
-            <element signature="e#0#112#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/reducers/sensorReducer.js">
+    <entry file="file://$PROJECT_DIR$/client/src/components/common/TextFieldGroup.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/common/TextAreaFieldGroup.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/common/Spinner.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/common/PrivateRoute.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/post/CommentForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state>
           <folding>
-            <element signature="e#0#63#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/reducers/profileReducer.js">
+    <entry file="file://$PROJECT_DIR$/client/src/components/post/CommentItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+        <state>
           <folding>
-            <element signature="e#0#117#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/dashboard/Dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/create-profile/CreateProfile.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/sensors/SensorReg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/users/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -641,81 +542,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/sensors/LogItem.js">
+    <entry file="file://$PROJECT_DIR$/client/src/components/layout/Navbar.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/layout/Navbar.js">
+    <entry file="file://$PROJECT_DIR$/client/src/components/layout/Footer.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/post/CommentFeed.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/reducers/authReducer.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/routes/api/sensors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/post/Post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/common/NotFound.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/common/InputGroup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/actions/types.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/actions/sensorAction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/reducers/sensorReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/reducers/profileReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/reducers/postReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-104" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/reducers/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#2#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/users/Login.js">
+    <entry file="file://$PROJECT_DIR$/client/src/reducers/errorReducer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/profile/ProfileGitHub.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="72" column="29" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/routes/api/posts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-        </state>
+        <state relative-caret-position="-1746" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/common/TextAreaFieldGroup.js">
+    <entry file="file://$PROJECT_DIR$/client/src/components/posts/Posts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/common/Spinner.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/post/CommentForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="95" column="88" selection-start-line="95" selection-start-column="88" selection-end-line="95" selection-end-column="88" />
+        <state relative-caret-position="-21">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/post/CommentFeed.js">
+    <entry file="file://$PROJECT_DIR$/client/src/components/logs/Logs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/post/CommentItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -724,18 +662,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/profile/ProfileAbout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="510">
+          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/profile/Profile.js">
+    <entry file="file://$PROJECT_DIR$/client/src/components/profiles/ProfileItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+        <state relative-caret-position="75">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -744,176 +679,99 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/profiles/Profiles.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        <state relative-caret-position="645">
+          <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/profiles/ProfileItem.js">
+    <entry file="file://$PROJECT_DIR$/client/src/components/profile/ProfileGitHub.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="39" />
+        <state relative-caret-position="1050">
+          <caret line="72" column="29" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/profile/Profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/profile/ProfileHeader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="300">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/actions/types.js">
+    <entry file="file://$PROJECT_DIR$/client/src/components/edit-profile/EditProfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/sensors/SensorDisp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        <state relative-caret-position="2475">
+          <caret line="175" column="38" selection-start-line="175" selection-start-column="38" selection-end-line="175" selection-end-column="38" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/sensors/SensorReg.js">
+    <entry file="file://$PROJECT_DIR$/client/src/actions/profileAction.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="330">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/routes/api/profile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/actions/sensorAction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/routes/api/users.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/dashboard/Dashboard.js">
+    <entry file="file://$PROJECT_DIR$/server/config/keys.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="62" column="32" lean-forward="true" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-389">
-          <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/posts/PostForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="92" column="82" selection-start-line="92" selection-start-column="82" selection-end-line="92" selection-end-column="82" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/posts/PostFeed.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/logs/LogItem.js">
+    <entry file="file://$PROJECT_DIR$/client/src/App.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/posts/PostItem.js">
+    <entry file="file://$PROJECT_DIR$/client/src/App.test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/actions/authAction.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="87" column="37" lean-forward="true" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/models/User.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/models/Sensor.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/models/Log.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/post/Post.js">
+    <entry file="file://$PROJECT_DIR$/client/src/actions/postAction.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="56" column="20" lean-forward="true" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+        <state relative-caret-position="406">
+          <caret line="148" column="2" selection-start-line="144" selection-end-line="148" selection-end-column="2" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/posts/Posts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/logs/LogFeed.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/routes/api/sensors.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/logs/Logs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
   </component>
 </project>

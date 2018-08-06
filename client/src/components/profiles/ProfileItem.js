@@ -34,10 +34,10 @@ class ProfileItem extends Component {
             </div>
         );
     }
-}
+};
 
 ProfileItem.propTypes = {
     profile: PropTypes.object.isRequired
-};
+}
 
 export default ProfileItem;

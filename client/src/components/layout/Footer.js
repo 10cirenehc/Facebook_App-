@@ -1,4 +1,5 @@
 import React from 'react';
+
 export default () => {
     return(
         <footer className="bg-info text-white mt-5 p-4 text-center">
@@ -6,4 +7,3 @@ export default () => {
         </footer>
     );
 }
-

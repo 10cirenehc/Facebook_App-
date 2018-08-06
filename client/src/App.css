@@ -1,4 +1,7 @@
-img { width: 100%; }
+img {
+  width: 100%;
+}
+
 .landing {
   position: relative;
   background: url('./img/surf.jpg') no-repeat;
@@ -8,13 +11,29 @@ img { width: 100%; }
   margin-top: -24px;
   margin-bottom: -50px;
 }
-.landing-inner { padding-top: 80px; }
+
+.landing-inner {
+  padding-top: 80px;
+}
+
 .dark-overlay {
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
-.card-form { opacity: 0.9; }
-.latest-profiles-img { width: 40px; height: 40px; }
-.form-control::placeholder { color: #bbb !important; }
+
+.card-form {
+  opacity: 0.9;
+}
+
+.latest-profiles-img {
+  width: 40px;
+  height: 40px;
+}
+
+.form-control::placeholder {
+  color: #bbb !important;
+}

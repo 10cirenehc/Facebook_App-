@@ -1,6 +1,3 @@
-
-
-
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Provider } from 'react-redux';
@@ -24,9 +21,6 @@ import Profile from './components/profile/Profile';
 import NotFound from './components/common/NotFound';
 import Posts from './components/posts/Posts';
 import Post from './components/post/Post';
-import SensorReg from './components/sensors/SensorReg';
-import Logs from './components/logs/Logs';
-
 
 import store from './store';
 
@@ -66,12 +60,8 @@ class App extends Component {
                             <Route exact path="/login" component={ Login }/>
                             <Route exact path="/profiles" component={ Profiles }/>
                             <Route exact path="/profile/:handle" component={ Profile }/>
-                            <Route exact path="/sensor_reg" component={SensorReg}/>
                             <Switch>
                                 <PrivateRoute exact path="/dashboard" component={ Dashboard }/>
-                            </Switch>
-                            <Switch>
-                                <PrivateRoute exact path="/logs" component={Logs}/>
                             </Switch>
                             <Switch>
                                 <PrivateRoute exact path="/create-profile" component={ CreateProfile }/>

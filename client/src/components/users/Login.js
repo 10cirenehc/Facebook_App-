@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
-import TextFieldGroup from '../common/TextFieldGroup';
-
-import PropTypes  from 'prop-types';
-
+import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-
-import { loginUser } from "../../actions/authAction";
+import { loginUser } from '../../actions/authAction';
+import TextFieldGroup from '../common/TextFieldGroup';
 
 class Login extends Component {
     constructor() {
@@ -20,23 +17,23 @@ class Login extends Component {
         this.onSubmit = this.onSubmit.bind(this);
     }
 
+    componentDidMount() {
+        if(this.props.auth.isAuthenticated) {
+            this.props.history.push('/dashboard');
+        }
+    }
+
+    componentWillReceiveProps(nextProps) {
+        if(nextProps.auth.isAuthenticated) {
+            this.props.history.push('/dashboard');
+        }
+        if(nextProps.errors) {
+            this.setState({errors: nextProps.errors});
+        }
+    }
+
     onChange(event) {
         this.setState({ [event.target.name]: event.target.value });
-    }
-
-    componentWillReceiveProps(nextProps){
-        if(nextProps.auth.isAuthenticated){
-            this.props.history.push('/dashboard');
-        }
-        if (nextProps.errors){
-            this.setState({errors:nextProps.errors});
-        }
-    }
-
-    componentDidMount(){
-        if(this.props.auth.isAuthenticated){
-            this.props.history.push('/dashboard');
-        }
     }
 
     onSubmit(event) {
@@ -60,13 +57,22 @@ class Login extends Component {
                             <h1 className="display-4 text-center">Log In</h1>
                             <p className="lead text-center">Sign in to your My Summer Friends account</p>
                             <form onSubmit={this.onSubmit}>
-                                <TextFieldGroup type="email" placeholder="Email Address" name="email"
-                                                value={this.state.email} onChange={this.onChange} error={errors.email}/>
-
-                                <TextFieldGroup type="password" placeholder="Password" name="password"
-                                                value={this.state.password} onChange={this.onChange} error={errors.password}
+                                <TextFieldGroup
+                                    type="email"
+                                    placeholder="Email Address"
+                                    name="email"
+                                    value={this.state.email}
+                                    onChange={this.onChange}
+                                    error={errors.email}
                                 />
-
+                                <TextFieldGroup
+                                    type="password"
+                                    placeholder="Password"
+                                    name="password"
+                                    value={this.state.password}
+                                    onChange={this.onChange}
+                                    error={errors.password}
+                                />
                                 <input type="submit" className="btn btn-info btn-block mt-4"/>
                             </form>
                         </div>
@@ -84,9 +90,8 @@ Login.propTypes = {
 };
 
 const mapStateToProps = state => ({
-   auth : state.auth,
-   errors: state.errors
+    auth: state.auth,
+    errors: state.errors
 });
 
-export default connect(mapStateToProps, { loginUser})(Login);
-
+export default connect(mapStateToProps, { loginUser })(Login);

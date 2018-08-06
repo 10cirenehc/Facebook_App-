@@ -1,5 +1,3 @@
-
-
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
@@ -46,9 +44,6 @@ class Navbar extends Component {
                         />
                         Logout
                     </a>
-                </li>
-                <li className = "nav-item">
-                    <Link className = "nav-link" to="/sensor_reg">Sensor Registration</Link>
                 </li>
             </ul>
         );
