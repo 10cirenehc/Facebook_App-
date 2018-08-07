@@ -1,16 +1,89 @@
 const express = require('express');
 const router = express.Router();
+//const mongoose = require('mongoose');
+const passport = require('passport');
 
-const passport = require ('passport');
-
-const jwt = require ('jsonwebtoken');
-
-
+//Load Profile model
 const Profile = require('../../models/Profile');
-const User = require('../../models/Profile');
+const User = require('../../models/User');
 
 const validateProfileInput = require('../../validation/profile');
 
+// @route   GET api/profile/test
+// @desc    Tests profile route
+// @access  Public
+router.get('/test', (req, res) => res.json({msg: "Profile works!"}));
+
+// @route   GET api/profile
+// @desc    return the profile of the logged in user
+// @access  Public
+router.get('/', passport.authenticate('jwt', {session: false}), (req, res) => {
+    const errors = {};
+    Profile.findOne({ user: req.user.id })
+    //.populate('user', ['name', 'avatar'])         // Load the associated data
+        .then( profile => {
+            if (!profile) {
+                errors.noprofile = 'There is no profile for this user';
+                return res.status(404).json(errors);
+            }
+            res.json(profile);
+        })
+        .catch(err => res.status(404).json(err));
+});
+
+// @route   GET api/profile/handle/:handle
+// @desc    Get profile by handle
+// @access  Public
+router.get('/handle/:handle', (req, res) => {
+    const errors = {};
+    Profile.findOne({ handle: req.params.handle })
+        .populate('user', ['name', 'avatar'])
+        .then(profile => {
+            if(!profile) {
+                errors.noprofile = 'There is no profile for this user';
+                res.status(404).json(errors);
+            }
+            res.json(profile);
+        })
+        .catch(err => res.status(404).json(err));
+});
+
+// @route   GET api/profile/user/:user_id
+// @desc    Get profile by user id
+// @access  Public
+router.get('/user/:user_id', (req, res) => {
+    const errors = {};
+    Profile.findOne({ user: req.params.user_id })
+        .populate('user', ['name', 'avatar',], 'social')
+        .then(profile => {
+            if(!profile) {
+                errors.noprofile = 'There is no profile for this user';
+                res.status(404).json(errors);
+            }
+            res.json(profile);
+        })
+        .catch(err => res.status(404).json(err));
+});
+
+// @route   GET api/profile/all
+// @desc    Get all profiles
+// @access  Public
+router.get('/all', (req, res) => {const errors = {};
+    Profile.find()
+        .populate('user', ['name', 'avatar'])
+        .then(profiles => {
+            if(!profiles) {
+                errors.noprofile = 'There are no profiles';
+                return res.status(404).json();
+            }
+            res.json(profiles);
+        })
+        .catch(err => res.status(404).json({profile: 'There are no profiles'}));
+});
+
+// @route   POST api/profile
+// @desc    Create or edit user profile
+// @access  Private
 router.post('/', passport.authenticate('jwt', {session: false}), (req, res) => {
     const { errors, isValid } = validateProfileInput(req.body);
 
@@ -37,7 +110,6 @@ router.post('/', passport.authenticate('jwt', {session: false}), (req, res) => {
 
     Profile.findOne({ user: req.user.id })
         .then(profile => {
-            console.log("entered")
             if(profile) {
                 //Update
                 Profile.findOneAndUpdate(
@@ -64,79 +136,17 @@ router.post('/', passport.authenticate('jwt', {session: false}), (req, res) => {
         });
 });
 
-router.delete ('/', passport.authenticate('jwt' , {session:false}), (req,res) => {
-    Profile.findOneAndRemove({ user: req.user_id})
-        .then(()=> {
+// @route   DELETE api/profile/
+// @desc    Delete user and profile
+// @access  Private
+router.delete('/', passport.authenticate('jwt', {session:false}), (req, res) => {
+    Profile.findOneAndRemove({ user: req.user.id })
+        .then(() => {
             // After removing the profile, I also delete the user object
-            User.findOneAndRemove({user : req.user.id})
+            User.findOneAndRemove({ user: req.user.id })
                 .then(() => res.json({ success: true }))
                 .catch(err => res.status(404).json(err));
-        })
-        .catch(err => res.status(404).json(err));
+        }).catch(err => res.status(404).json(err));
 });
-
-
-//@route GET api/profile/handle/:handle
-//@desc  get profile by handle
-//@access Public
-router.get('/handle/:handle', (req, res) => {
-
-    const errors = {};
-
-    Profile.findOne({ handle: req.params.handle })
-        .populate('user', ['name', 'avatar'])
-        .then(profile => {
-            if(!profile) {
-                errors.noprofile = 'There is no profile for this user';
-                res.status(404).json(errors);
-            }
-            res.json(profile);
-        })
-        .catch(err => res.status(404).json(err));
-});
-
-//@route  GET api/profile
-//@desc return the profile of the logged in user
-//@access Public
-router.get('/', passport.authenticate('jwt', { session:false }),(req,res) => {
-    const errors = {};
-
-    Profile.findOne({ user : req.user.id })
-        .then(profile => {
-            if(!profile){
-                errors.noprofile = 'There is no profile for this user';
-                return res.status(404).json(errors);
-            }
-            res.json(profile)
-        })
-        .catch(err => res.status(404).json(err));
-});
-
-router.get('/test', (req,res) => res.json({msg: "Profile Works!"}));
-
-router.get('/user/:user_id' , (req, res) => {
-    const errors = {};
-
-    Profile.findOne({ user: req.params.user_id })
-    .then(profile => {
-        if(!profile){
-            errors.noprofile = 'There is no profile for this user';
-            res.status(404).json(errors);
-        }
-        res.json(profile)
-    })
-    .catch(err => res.status(404).json(err));
-});
-
-router.get('/all' , (req,res) => {
-    Profile.find()
-    .then(profile=> {
-        res.json(profile)
-    })
-});
-
-
-
 
 module.exports = router;
-
